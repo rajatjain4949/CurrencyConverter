@@ -45,8 +45,7 @@ namespace CurrencyConverter.Tests
             var request = CurrencyDataRequest.Get_Invalid_Sample_Request_Invalid_Amount();
             var x = _conversionService.ConvertCurrency(request);
         }
-
-        //same to same
+       
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Check_Invalid_Currency_Throws_Exception()
