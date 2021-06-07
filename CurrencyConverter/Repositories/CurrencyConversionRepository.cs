@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CurrencyConverter.Repositories
 {
-    public class CurrencyConversionRepository
+    public class CurrencyConversionRepository : ICurrencyConversionRepository
     {
         public List<CurrencyConversion> GetAll()
         {
@@ -15,17 +15,22 @@ namespace CurrencyConverter.Repositories
                 new CurrencyConversion
                 {
                     Name = "USD",
-                    RateFromUsd = 1.00m
+                    RateFromUsd = 1.00
                 },
                 new CurrencyConversion
                 {
                     Name = "CAD",
-                    RateFromUsd = 1.28m
+                    RateFromUsd = 1.28
                 },
                 new CurrencyConversion
                 {
                     Name = "BTC",
-                    RateFromUsd = 0.000027m
+                    RateFromUsd = 0.000027
+                },
+                    new CurrencyConversion
+                {
+                    Name = "INR",
+                    RateFromUsd = 70
                 },
             });
         }

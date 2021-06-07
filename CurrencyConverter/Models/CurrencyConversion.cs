@@ -7,7 +7,6 @@ namespace CurrencyConverter.Models
     public class CurrencyConversion
     {
         public string Name { get; set; } = string.Empty;
-
-        public decimal RateFromUsd { get; set; } = 0m;
+        public double RateFromUsd { get; set; }
     }
 }

@@ -1,0 +1,13 @@
+[
+  {
+
+    "Amount": 140,
+    "FromCurrency": "inr",
+    "ToCurrency": "usd"
+  },
+  {
+    "Amount": 1,
+    "FromCurrency": "usd",
+    "ToCurrency": "usd"
+  }
+]
